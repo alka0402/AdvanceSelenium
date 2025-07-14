@@ -27,33 +27,13 @@ import POM_repo.campValidation;
 @Test
 public class CreateCampaignTest extends BaseClass {
 	//polling this -->push1
-	//push by test engg 2
-	public void createCampaignTest() throws Throwable {
-//	    File_Utilities file=new File_Utilities();
-//		String url = file.getKeyAndValue("url");
-//		String username = file.getKeyAndValue("username");
-//		String password = file.getKeyAndValue("password");
-//		String browser = file.getKeyAndValue("browser");
-//		WebDriver driver;
-//		if (browser.equalsIgnoreCase("chrome")) {
-//			driver=new ChromeDriver();
-//		}
-//		else if (browser.equalsIgnoreCase("edge")) {
-//			driver=new EdgeDriver();
-//		}
-//		else if (browser.equalsIgnoreCase("Firefox")) {
-//			driver=new FirefoxDriver();
-//		}
-//		else {
-//			driver=new ChromeDriver();
-//		}
 
-//		WebDriver_Utilities wutil=new WebDriver_Utilities();
-//		wutil.maxmizewindow(driver);
-//		wutil.implicitwait(driver);
-//        driver.get(url);
-//        LoginPage log = new LoginPage(driver);
-//        log.loginToPage(username, password);
+	//push by test  2
+
+
+	public void createCampaignTest() throws Throwable {
+
+
         HomePage hp=new HomePage(driver);
         hp.clickToCampaign();
         CreateCampaignLookup ccl=new CreateCampaignLookup(driver);
